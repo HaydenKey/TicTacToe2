@@ -29,14 +29,7 @@ public class Board {
     }
 
     public void addMove(int x, int y, char player) {
-        while (true) {
-            if (board[x][y] == 0) {
                 board[x][y] = player;
-                break;
-            } else {
-                System.out.println("Sorry, that spot is already taken! Please try again.");
-            }
-        }
     }
 
     public boolean checkForWinner() {
@@ -77,16 +70,23 @@ public class Board {
         int x;
         int y;
 
-        this.printBoard();
+        while (true) {
+            this.printBoard();
 
-        System.out.print("Please input your X coordinate: ");
-        x = sc.nextInt();
+            System.out.print("Please input your X coordinate: ");
+            x = sc.nextInt();
 
-        System.out.print("Please input your Y coordinate: ");
-        y = sc.nextInt();
-        System.out.println();
+            System.out.print("Please input your Y coordinate: ");
+            y = sc.nextInt();
+            System.out.println();
 
-        this.addMove(x, y, player);
+            if (board[x][y] == 0) {
+                this.addMove(x, y, player);
+                break;
+            } else {
+                System.out.println("Sorry, that spot is taken.  Please try again.");
+            }
+        }
 
         numTurns++;
     }

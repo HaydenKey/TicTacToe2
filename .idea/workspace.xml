@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c7147699-484e-448e-a552-c006b827065a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe2/com/company/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe2/com/company/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe2/com/company/Board.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Board.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +76,7 @@
       <updated>1566184524796</updated>
       <workItem from="1566184527649" duration="40000" />
       <workItem from="1566184783488" duration="4516000" />
-      <workItem from="1566266677159" duration="2520000" />
+      <workItem from="1566266677159" duration="3978000" />
     </task>
     <servers />
   </component>
